@@ -1,0 +1,217 @@
+.navbar {
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.nav__title { 
+    position: relative;
+    font-size: 10vw;
+    text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    animation: start 4s 1;
+    margin: 50px 0  50px 0;
+    font-family:"neon-tubes-2-regular";
+    color:rgb(144, 183, 235);
+}
+.nav__links {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    font-size: 5.5vw;
+    position: -webkit-sticky;
+	position: sticky;
+    top: 0;
+    background-color: rgb(75, 74, 74) ; 
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    font-weight: bold;
+}
+.nav__links:before {
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    top: 0px;
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    box-shadow: inset 0 0 5px rgba(247, 244, 244, 0.35), 0 0 3px 5px rgba(241, 240, 240, 0.35);
+}
+.nav__links:after {
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    bottom: -2px;
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    box-shadow: inset 0 0 5px rgba(247, 244, 244, 0.35), 0 0 7px 5px rgba(241, 240, 240, 0.35);
+}
+
+
+.about{
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    color: #bb2aff; 
+}
+.projects{
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    color: #57ff48; 
+}
+.contact{
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    color: #d30606; 
+}
+.resume{
+    animation: power 5.3s 1;
+    animation-timing-function: ease-in-out;
+    color: #ffa807; 
+}
+
+@media screen and (min-width: 36px) {
+    .nav__links {
+    
+    }
+}
+@media screen and (min-width: 640px) {
+    .nav__links {
+    
+    }
+    .about:hover {
+        font-weight: bolder ;
+        text-shadow:0 0 15px #a71ce7, 5px 0 20px #c54dd4, 0 0 25px #a729e2,  0 0 30px #a81b6d;
+        transform: translateY(-2px);
+        color: #d189f3;
+    }
+    .projects:hover {
+        font-weight: bolder ;
+        text-shadow:0 0 15px #59a746, 5px 0 20px #2cdf1c, 0 0 25px #5eb853,  0 0 30px #72e051;
+        color: #b4e09f;
+        transform: translateY(-2px);
+    }
+    .contact:hover {
+        font-weight: bolder ;
+        text-shadow:0 0 15px #a74646, 5px 0 20px #b43131, 0 0 25px #b60000,  0 0 30px #b40f0f;
+        color: #cc6565;
+        transform: translateY(-2px);
+    }
+    .resume:hover {
+        font-weight: bolder ;
+        text-shadow:0 0 15px #e7961c, 5px 0 20px #b34715, 0 0 25px #d8af55,  0 0 30px #df9527;
+        transform: translateY(-2px);
+        color: #f3e089;
+        transform: translateY(-2px);
+    }
+    .nav__title:hover {
+        text-decoration: 3px underline overline #91d1f7;
+    }
+}
+
+@keyframes power {
+    0% {
+        color: #353535;
+        background-color: transparent;
+        box-shadow: 0 0 0 0;
+        text-shadow: 0 0 0 0;
+    }
+    89% {
+        color: #353535;
+        background-color: transparent;
+    }
+    90% {
+        color: inherit;;
+        background-color: inherit;
+    }
+    91% {
+        color:#353535 ;
+        background-color: transparent;
+    }
+    94% {
+        color:#353535 ;
+        background-color: transparent;
+    }
+    95% {
+        color: inherit;;
+         background-color: inherit;
+    }
+    96% {
+        color:#353535 ;
+         background-color: transparent;
+    }
+    99% {
+        color:#353535 ;
+        background-color: transparent;
+        box-shadow: 0;
+    }
+    100% {
+        color: inherit ;
+        background-color: inherit;
+        box-shadow: inherit;
+        text-shadow: inherit;
+    }
+}
+@keyframes start {
+    0% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    24% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    25% {
+        color:rgb(144, 183, 235);;
+        text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    }
+    26% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    49% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    50% {
+        color:rgb(144, 183, 235);;
+        text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    }
+    51% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    64% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    65% {
+        color:rgb(144, 183, 235);;
+        text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    }
+    66% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    82% {
+        color:rgb(144, 183, 235);;
+        text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    }
+    83% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    92% {
+        color: #353535;
+        text-shadow: 0 0 0;
+    }
+    100% {
+        color:rgb(144, 183, 235);;
+        text-shadow: 0 0 0 transparent,0 0 10px #1e3f88, 5px 0 20px #295be2, 0 0 80px #295be2, -5px 0 30px #295be2, 0 0 30px #295be2;
+    }
+}

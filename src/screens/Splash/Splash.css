@@ -1,0 +1,119 @@
+.welcome {
+    color: white;
+    animation: power 6s 1;
+}
+.marquel {
+    width: 300px;
+    border: 2px white solid
+}
+.list {
+    color: #708deb;
+    height: 60px;
+    overflow: hidden;
+    border:3px outset black ; 
+    border-right: none;
+    border-left: none;
+    width: max-content;
+}
+span {
+    font-family:"neon-tubes-2-regular";
+    color:rgb(144, 183, 235);
+    animation: power 6s 1;
+}
+
+.traits {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    font-family:"neon-tubes-2-regular";
+    color:rgb(185, 201, 188);
+    text-shadow: 0 0 0 transparent,0 0 10px #19b447, 2px 0 3px #4c9155, 0 0 10px #53a822, -0 0 30px #3efa19, 0 0 6px #50914d;
+}
+
+.traits:first-child {
+    animation: list 40s infinite;
+    animation-delay: 6s;
+    text-shadow: 0 0 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes list {
+    0%{
+        margin-top: 0px;
+        text-shadow: 0 0 0 transparent,0 0 10px #19b447, 2px 0 3px #4c9155, 0 0 10px #53a822, -0 0 30px #3efa19, 0 0 6px #50914d;
+    }
+    2% {
+        margin-top: 0;
+    }
+    7.7%{
+        margin-top: -60px;
+    }
+    15.4%{
+        margin-top: -120px;
+    }
+    23.1%{
+        margin-top: -180px;
+    }
+    30.8%{
+        margin-top: -240px;
+    }
+    38.5%{
+        margin-top: -300px;
+    }
+    46.2%{
+        margin-top: -360px;
+    }
+    53.9%{
+        margin-top: -420px;
+    }
+    61.6%{
+        margin-top: -480px;
+    }
+    69.3%{
+        margin-top: -540px;
+    }
+    77%{
+        margin-top: -600px;
+    }
+    84.7%{
+        margin-top: -660px;
+    }
+    92.4%{
+        margin-top: -720px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+
+}
+
+.show__off {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 712px) {
+    .boom {
+       display: flex;
+       flex-flow: row;
+       justify-content: center;
+       margin-bottom: 1px;
+    }
+    .welcome {
+        font-size: 3vw;
+        margin-top:9vw;
+        margin-right: 3.5vw;
+        align-content: flex-start;
+    }
+    .marquel {
+    margin-top: 37px;
+    width: 21vw;
+    }
+}
+@media screen and (min-width: 1336px) {
+    .marquel {
+        margin-top: 7vw;
+    }
+}

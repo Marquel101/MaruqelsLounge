@@ -1,0 +1,92 @@
+.about__sec {
+    margin-top: 90px;
+    
+}
+
+#a__header {
+    color: #b781cf;
+    font-family:"neon-tubes-2-regular";
+    font-size: 40px;
+    text-shadow:0 0 3px #a71ce7, 5px 0 9px #c54dd4, 0 0 6px #a729e2,  0 0 5px #a81b6d;
+    animation: power 6s 1;
+}
+.paragraphs {
+    color: rgb(218, 143, 218);
+    font-weight: bolder; 
+    animation: power 6s 1;
+}
+.one {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.two {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.three {
+    margin-bottom: 15px;
+}
+.me {
+    width: 100px;
+    height: 100px;
+}
+.programs {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20vw 0 20vw;
+    justify-content: center;
+
+}
+.program {
+    width: fit-content;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: #b781cf;
+    position: absolute;
+    font-size: 10px;
+    margin-top: -10px;
+    text-shadow:0 0 3px #a71ce7, 5px 0 9px #c54dd4, 0 0 6px #a729e2,  0 0 5px #a81b6d;
+}
+@media screen and (min-width: 300px) {
+    .paragraphs {
+        margin: 0 3vw;
+    }
+}
+@media screen and (min-width: 516px) {
+    .paragraph1 {
+        margin: auto 9vw;
+        font-size: 3.6vw;
+        margin-bottom: 10px;
+    }
+    .me {
+        width: 22vw;
+        height: auto;
+    }
+    .paragraph2 {
+        margin: auto 9vw;
+        font-size: 3.6vw;
+        margin-bottom: 10px;
+    
+    }
+    .paragraph3 {
+        font-size: 3.6vw;
+    }
+}
+
+@media screen and (min-width: 550px) {
+  
+
+}
+
+
