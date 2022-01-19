@@ -1,0 +1,40 @@
+.proj__sec {
+    margin-top: 99px; 
+}
+
+#p__header {
+    color: #a5e481;
+    font-family:"neon-tubes-2-regular";
+    font-size: 40px;
+    text-shadow:0 0 3px #1fcf0f, 5px 0 9px #37a803, 0 0 6px #24c904,  0 0 5px #26b912;
+    animation: power 6s 1;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px #070606 solid;
+    border-radius: 8px;
+    background-color: #5e5d5d71;
+
+}
+.proj__pic {
+    width: 100px;
+    height: 100px;
+}
+
+.proj__links {
+    color: rgb(35, 235, 28);
+}
+
+.proj__bio {
+    color: rgb(68, 177, 68);
+}
+
+@media screen and (min-width: 516px) {
+    .proj__pic {
+        width: 22vw;
+        height: auto;
+    }
+}
