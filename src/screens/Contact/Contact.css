@@ -1,4 +1,4 @@
-.proj__sec {
+.c__sec {
     margin-top: 99px; 
 }
 
@@ -10,6 +10,27 @@
     animation: power 6s 1;
 }
 
+.contacts{
+    font-size: 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact__icons {
+    margin: 0 2vw;
+    margin-bottom: 30px;
+    color: #c22929;
+}
+
+.contact__icons::after:hover {
+    display: none;
+}
+.contact__icons:hover {
+    color: #a36363;
+    transform: translateY(-4px);
+   
+}
 @media screen and (min-width: 516px) {
     #c__header {
         font-size: 80px;
