@@ -9,3 +9,10 @@
     text-shadow:0 0 3px #cf0f0f, 5px 0 9px #b43019, 0 0 6px #b91313,  0 0 5px #bb0303;
     animation: power 6s 1;
 }
+
+@media screen and (min-width: 516px) {
+    #c__header {
+        font-size: 80px;
+    }
+    
+}

@@ -65,6 +65,9 @@
     }
 }
 @media screen and (min-width: 516px) {
+    #a__header {
+        font-size: 80px;
+    }
     .paragraph1 {
         margin: auto 9vw;
         font-size: 3.6vw;
