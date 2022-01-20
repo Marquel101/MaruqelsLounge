@@ -1,13 +1,14 @@
 import React from 'react'
+import './Contact.css'
 
 export default function Contact() {
     return (
-        <div>
+        <>
             <div id="contact"/>
-            <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/>
-            <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/>
-            <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/>
-            <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/> <img className='me' src='https://i.imgur.com/8jTl8hP.jpg' alt="SrA Sears"/>
+            <div className='c__sec'>
+                <h1 id="c__header">CONTACT ME</h1>
+           
         </div>
+        </>
     )
 }

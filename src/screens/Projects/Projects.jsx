@@ -6,7 +6,7 @@ export default function Projects() {
         <>
             <div id="projects"/>
             <div className='proj__sec'>
-                <h1 id="p__header">MY WORK:</h1>
+                <h1 id="p__header">MY WORK</h1>
                 <div className='project'>
                     <div  className='left'>
                         <div className='proj1__name'>MUFFLED RAGE</div>

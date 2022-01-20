@@ -1,0 +1,11 @@
+.proj__sec {
+    margin-top: 99px; 
+}
+
+#c__header {
+    color: #ce6161;
+    font-family:"neon-tubes-2-regular";
+    font-size: 40px;
+    text-shadow:0 0 3px #cf0f0f, 5px 0 9px #b43019, 0 0 6px #b91313,  0 0 5px #bb0303;
+    animation: power 6s 1;
+}
