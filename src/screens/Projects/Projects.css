@@ -9,6 +9,11 @@
     text-shadow:0 0 3px #1fcf0f, 5px 0 9px #37a803, 0 0 6px #24c904,  0 0 5px #26b912;
     animation: power 6s 1;
 }
+.soon {
+    color: #a5e481;
+    font-family:"neon-tubes-2-regular";
+    font-weight: bolder;
+}
 .project {
     display: flex;
     flex-direction: column;
@@ -71,6 +76,9 @@
 @media screen and (min-width: 516px) {
     #p__header {
         font-size: 80px;
+    }
+    .soon {
+        font-size: 40px;
     }
 
     .project {

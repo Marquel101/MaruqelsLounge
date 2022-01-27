@@ -31,6 +31,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+                <div className='soon'>MORE TO COME...</div>
             </div>
         </>
     )

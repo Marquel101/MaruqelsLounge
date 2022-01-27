@@ -29,55 +29,47 @@ export default function About() {
                     </p>
                 </div>
             </div>
+            <div className='skills'>SKILLS</div>
             <div className='programs'>
+                
                 <div className='program'>
                     <DiJavascript/>
-                    <h5 className='text'>JAVASCRIPT</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiRuby/>
-                    <h5 className='text'>RUBY</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiCss3/>
-                    <h5 className='text'>CSS3</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiReact/>
-                    <h5 className='text'>REACT</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiNodejs/>
-                    <h5 className='text'>NODE.JS</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiMongodb/>
-                    <h5 className='text'>MONGO DB</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <DiGithub/>
-                    <h5 className='text'>GITHUB</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <SiExpress/>
-                    <h5 className='text'>EXPRESS.JS</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <SiHtml5/>
-                    <h5 className='text'>HTML5</h5>
                 </div>
                 <br/>
                 <div className='program'>
                     <SiRubyonrails/>
-                    <h5 className='text'>RAILS</h5>
                 </div>
                 <br/>
             </div>
