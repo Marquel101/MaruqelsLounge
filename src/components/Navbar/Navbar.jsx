@@ -12,7 +12,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className='nav__links'>
-                <Link className="about" to='/#about'>ABOUT</Link>
+                <Link className="about" to='/#about'>ABOUT </Link>
                 <Link className="projects" to='/#projects'>PROJECTS</Link>
                 <Link className='contact' to='/#contact'>CONTACT</Link>
                 <a className="resume"  href={require("/home/marquel/portfolio/MaruqelsLounge/src/components/Resume (1).pdf")} target="blank">RESUME</a>
