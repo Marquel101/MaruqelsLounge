@@ -1,6 +1,6 @@
 import './Navbar.css'
 import React from 'react'
-
+import resumePDF from '../Resume.pdf'
 import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Navbar() {
@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link className="about" to='/#about'>ABOUT </Link>
                 <Link className="projects" to='/#projects'>PROJECTS</Link>
                 <Link className='contact' to='/#contact'>CONTACT</Link>
-                <a className="resume"  href={require("/home/marquel/portfolio/MaruqelsLounge/src/components/Navbar/Resume.pdf")} target="blank">RESUME</a>
+                <a className="resume"  href={resumePDF}target="blank">RESUME</a>
                 </div>
         </>
     )
