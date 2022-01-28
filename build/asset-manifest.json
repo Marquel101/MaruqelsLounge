@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77a0e606.css",
+    "main.js": "/static/js/main.3fbc51f0.js",
+    "static/media/Resume (1).pdf": "/static/media/Resume (1).736f65d3008322e49d5f.pdf",
+    "static/media/NeonTubes2.otf": "/static/media/NeonTubes2.f01f7e70a4e6b2467aff.otf",
+    "index.html": "/index.html",
+    "main.77a0e606.css.map": "/static/css/main.77a0e606.css.map",
+    "main.3fbc51f0.js.map": "/static/js/main.3fbc51f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77a0e606.css",
+    "static/js/main.3fbc51f0.js"
+  ]
+}
