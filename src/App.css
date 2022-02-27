@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  animation: power 5.3s 1;
+  animation-timing-function: ease-in-out;
 }
 
 body {

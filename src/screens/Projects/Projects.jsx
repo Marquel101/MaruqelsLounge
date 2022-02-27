@@ -9,6 +9,18 @@ export default function Projects() {
                 <h1 id="p__header">MY WORK</h1>
                 <div className='project'>
                     <div  className='left'>
+                        <div className='proj3__name'>Tough Talk</div>
+                        <a className='gitLinks' rel="noopener noreferrer" href='https://github.com/Marquel101/kebab-case' target="_blank"><DiGithubBadge /></a>
+                    </div>
+                    <div className='right'>
+                        <div className='proj__info'>
+                            <div className='proj__bio'>Tough Talk is a fun an interactive website where you can see all the different views people have on certain topics. We offer a wide variety of discussion topics for you to choose from. We recommend to do this with a group of friends, but if you don't have any no worries.</div>
+                            <a className='proj__links' id='tough' rel="noopener noreferrer" href="https://toughtalk.netlify.app/" target="_blank">Link Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
+                    <div  className='left'>
                         <div className='proj1__name'>MUFFLED RAGE</div>
                         <a className='gitLinks' rel="noopener noreferrer" href='https://github.com/Marquel101/MUFFLED-RAGE' target="_blank"><DiGithubBadge /></a>
                     </div>
