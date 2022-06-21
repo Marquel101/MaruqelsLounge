@@ -5,6 +5,9 @@
     text-align: center;
     overflow: hidden;
 }
+.nav__title:a {
+    color: black;
+}
 .nav__title { 
     position: relative;
     font-size: 10vw;

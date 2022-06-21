@@ -1,6 +1,6 @@
 import './Navbar.css'
 import React from 'react'
-import resumePDF from '../Resume.pdf'
+import resumePDF from '/home/marquel/portfolio/MaruqelsLounge/src/components/Navbar/Resume.pdf'
 import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Navbar() {
