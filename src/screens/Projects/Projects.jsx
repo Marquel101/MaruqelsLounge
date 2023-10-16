@@ -43,6 +43,19 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+                <div className='project'>
+                    <div  className='left'>
+                        <div className='proj4__name'>Faux Spotify</div>
+                        <a className='gitLinks' rel="noopener noreferrer" href='https://github.com/Marquel101/FauxSpotify' target="_blank"><DiGithubBadge /></a>
+                    </div>
+                    <div className='right'>
+                        <div className='proj__info'>
+                            <div className='proj__bio'>A replica of the original spotify.com/us site.  A test of being able to mimic a UI with just the usage of my eyes and trying to make it identical to the actual site. Primarily a way for me to work on CSS and learn new tricks and understand how one styling effect can affect another.</div>
+                            <a className='proj__links' id='spotify' rel="noopener noreferrer" href="https://fauxspotify.netlify.app" target="_blank">Link Here</a>
+                        </div>
+                    </div>
+                </div>
+                
                 <div className='soon'>MORE TO COME...</div>
             </div>
         </>

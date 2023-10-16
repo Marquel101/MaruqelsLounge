@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.proj1__name, .proj2__name, .proj3__name {
+.proj1__name, .proj2__name, .proj3__name, .proj4__name {
     font-family:"neon-tubes-2-regular";
     margin-right: 15px;
     font-weight: 1000;
@@ -46,6 +46,9 @@
 }
 .proj3__name {
     text-shadow:0 0 3px #e74e4e, 5px 0 9px #da4520, 0 0 6px #d63333,  0 0 5px #ee2e2e;
+}
+.proj4__name {
+    text-shadow:0 0 3px #86ec79, 5px 0 9px #91dd74, 0 0 6px #6de065,  0 0 5px #96e97f;
 }
 .gitLinks {
     font-size: 40px;
@@ -78,6 +81,10 @@
     color:#c90000 ;
     background-color: #e74e4e;
 }
+#spotify {
+    color:#030602 ;
+    background-color: #63ab56;
+}
 
 
 
@@ -105,7 +112,7 @@
         margin-right: 10px;
         margin-left: 30px;
     }
-    .proj2__name, .proj1__name, .proj3__name {
+    .proj2__name, .proj1__name, .proj3__name, .proj4__name {
         font-size: 34px;
     }
     .gitLinks {
@@ -143,6 +150,12 @@
         background-color:#c90000 ;
         color: #e74e4e;
         transition: .5s;
+    }
+
+    #spotify:hover {
+        color:#a3f188 ;
+        background-color: #73c764;
+        transition: .5s; 
     }
 
 @keyframes bounce {
